@@ -5,6 +5,7 @@ const TopRefresh = (props) =>  {
     return (
       <View>
         <Text>topRefresh</Text>
+        {props.children}
       </View>
     )
 };
